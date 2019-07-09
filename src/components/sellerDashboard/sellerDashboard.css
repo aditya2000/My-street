@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.dashboard {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.inputLocationDiv {
+    margin-top: 5em;
+}
+
+.inputLocation {
+    width: 70em;
+    height: 4em;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 15px;
+    box-shadow: 0.1em 0.25em 0.25em 0.1em rgb(218, 213, 213);
+    font-size: 0.95em;
+    color: rgb(48, 46, 46);
+    outline:none;
+}
+
+.submit-button {
+    height: 4em;
+    width: 7em;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0.1em 0.25em 0.25em 0.1em rgb(218, 213, 213);
+    outline: none;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color: rgb(50, 206, 50);
+    font-weight: bold;
+    font-size: 0.95em;
+    margin-left: 1em;
+}
+
+.btn {
+    margin: 1em;
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(50, 206, 50);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    border: 2px solid rgb(50, 206, 50);
+    color: rgb(50, 206, 50);
+    background-color: white;
+}
+
+.showItems {
+    padding: 2em;
+}
+
+.item {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    text-align: left;
+    padding: 1em;
+}
+
+.foodImage {
+    width: 20em;
+    height: 10em;
+}

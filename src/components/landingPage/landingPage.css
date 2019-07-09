@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.landingPage {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+.header {
+    text-align: left;
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    padding: 2em;
+    box-shadow: 0.1em 0.25em 0.25em 0.1em rgb(218, 213, 213);
+}
+
+.header a {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(50, 206, 50);
+}
+
+.signInOptions {
+    padding-top: 15em;
+    padding-bottom: 5em;
+}
+
+.seller-button {
+    padding: 1em;
+    margin: 5em;
+    border-radius: 2px;
+    border-style: none;
+    background-color: rgb(50, 206, 50);
+    color: white;
+    font-size: 1.05em;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    outline: none;
+    transition: 0.5s;
+}
+.seller-button:hover{
+    border: 3px solid rgb(50, 206, 50);
+    background-color: white;
+    color: rgb(50, 206, 50);
+}
+
+.buyer-button {
+    padding: 1em;
+    margin: 5em;
+    border-radius: 2px;
+    border-style: none;
+    background-color: rgb(50, 206, 50);
+    color: white;
+    font-size: 1.05em;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    outline: none;
+    transition: 0.5s;
+}
+.buyer-button:hover{
+    border: 3px solid rgb(50, 206, 50);
+    background-color: white;
+    color: rgb(50, 206, 50);
+}
+
+.customerDesc {
+    padding: 3em;
+    color: rgb(48, 46, 46);
+}
+
+.sellerDesc {
+    padding: 3em;
+    color: rgb(48, 46, 46);
+}
+
+.footer {
+    background-color: rgb(48, 46, 46);
+    padding: 2em;
+    color: white;
+}
+
+.clickText-Grid {
+    padding: 3em;
+    font-size: 1.5em;
+    color: #595959;
+}
+
+.clickImg-Grid {
+    padding: 2em;
+}
+
+.clickImg {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
+
+.foodText-Grid {
+    padding: 3em;
+    font-size: 1.5em;
+    color: #595959;
+}
+
+.foodImg-Grid {
+    padding: 2em;
+}
+
+.foodImg {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
+
+.landingPage hr {
+    width: 10em;
+    background-color: #303030;
+    border: none;
+    border-radius: 5px;
+    height: .25em;
+}
+
+.landingPage a {
+    color: rgb(50, 206, 50);
+}

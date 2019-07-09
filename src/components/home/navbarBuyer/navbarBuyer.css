@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.navbar {
+    text-align: left;
+    top: 0;
+    background-color: whitesmoke;
+    position: relative;
+    width: 100%;
+    color: rgb(50, 206, 50);
+    padding: 1em;
+    box-shadow: 0.1em 0.25em 0.25em 0.1em rgb(218, 213, 213);
+}
+
+.nav-header {
+    display: inline;
+}
+
+.logo {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(50, 206, 50);
+}
+
+.nav-links {
+    display: inline;
+    float: right;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+.nav-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(50, 206, 50);
+    margin: .5em;
+}
+
+.nav-links a:hover {
+    color:rgb(48, 46, 46);
+    transition: 0.5s;
+}
+
+.btnLogout {
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(50, 206, 50);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    float: right;
+}
+
+.btnLogout:hover {
+    border: 2px solid rgb(50, 206, 50);
+    color: rgb(50, 206, 50);
+    background-color: white;
+}

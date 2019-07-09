@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.sellerSignup {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(48, 46, 46);
+    text-align: center;
+    background-color: white;
+    width: 30em;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 25em;
+    padding: 3em;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
+
+.form-group {
+    padding: 0.5em;
+}
+
+.form-group input {
+    width: 18em;
+    height: 3em;
+    border-radius: 2px;
+    border: none;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+    outline-color: rgb(50, 206, 50);
+}
+
+.form-choice {
+    margin: 1em;
+}
+
+.form-choice select {
+    font-family: 'Work Sans', sans-serif;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 2px;
+    background-color: rgb(50, 206, 50);
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.form-choice option {
+    background-color: white;
+    color: rgb(50, 206, 50);
+    font-weight: bold;
+}
+
+.form-choice option:hover {
+    background-color: rgb(50, 206, 50);
+    color: white;
+}
+
+.form-distance {
+    margin: .75em;
+}
+.form-distance input{
+    width: 30em;
+    margin: 1em;
+}
+
+.btn {
+    margin: 1em;
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(50, 206, 50);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    outline: none;
+}
+
+.btn:hover {
+    border: 2px solid rgb(50, 206, 50);
+    color: rgb(50, 206, 50);
+    background-color: white;
+}
+
+.rawtext {
+    font-size: 0.85em;
+    color: rgb(87, 87, 87);
+}
+
+@media screen and (max-width: 800px) {
+    .sellerSignup {
+        width: 15em;
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+
+    .form-distance input{
+        width: 15em;
+    }
+}

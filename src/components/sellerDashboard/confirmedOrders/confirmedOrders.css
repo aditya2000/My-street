@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+.confirmedOrders {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.showItems {
+    padding: 2em;
+}
+
+.item {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    text-align: left;
+    padding: 1em;
+}
